@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-const PageMainMenu: FC = () => {
+export const PageMainMenu: FC = () => {
   return (
     <nav
       className="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme"

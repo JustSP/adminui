@@ -2,7 +2,11 @@ import { FC } from "react";
 import PageSideMenu from "./page.sideMenu";
 import PageMainMenu from "./page.mainMenu";
 
-const PageLayout: FC<PageLayoutProps> = ({ children }) => {
+interface PageLayoutProps {
+  children: JSX.Element;
+}
+
+export const PageLayout: FC<PageLayoutProps> = ({ children }) => {
   return (
     <div className="layout-wrapper layout-content-navbar  ">
       <div className="layout-container">

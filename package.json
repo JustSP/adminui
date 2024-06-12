@@ -3,6 +3,9 @@
   "description": "AdminUI",
   "version": "1.0.1",
   "private": false,
+  "main": "build/index.ts",
+  "type": "module",
+  "types": "build/index.d.ts",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

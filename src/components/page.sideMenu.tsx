@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-const PageSideMenu: FC = () => {
+export const PageSideMenu: FC = () => {
   return (
     <aside
       id="layout-menu"
